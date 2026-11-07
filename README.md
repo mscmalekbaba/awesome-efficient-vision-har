@@ -2,8 +2,6 @@
 
 _A curated resource list for resource-efficient vision-based Human Activity Recognition (HAR), with emphasis on lightweight models, pruning, distillation, edge deployment, and real-time worker activity recognition in industrial settings._
 
-This repository is inspired by the direction of my master thesis project, PDNet: exploring pruning and distillation for real-time worker activity recognition in industrial assembly.
-
 It focuses on computer vision HAR using RGB video, skeleton, egocentric, and multi-view data, with practical attention to efficiency and latency constraints.
 
 ## Why this list?
@@ -26,8 +24,7 @@ This list brings together papers, code, models, datasets, benchmarks, and deploy
 4. [Real-time and edge deployment](#real-time-and-edge-deployment)
 5. [Industrial worker activity recognition](#industrial-worker-activity-recognition)
 6. [Surveys and benchmarks](#surveys-and-benchmarks)
-7. [PDNet thesis direction](#pdnet-thesis-direction)
-8. [Useful tools and recipes](#useful-tools-and-recipes)
+7. [Useful tools and recipes](#useful-tools-and-recipes)
 
 ## Vision HAR datasets
 
@@ -35,7 +32,7 @@ This list brings together papers, code, models, datasets, benchmarks, and deploy
 - [HMDB51](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) (2011) — widely used benchmark for video action recognition. `[📦 dataset] [🧪 benchmark]`
 - [Kinetics-400](https://deepmind.google/opensource/kinetics/) (2017) — large-scale benchmark for video understanding and action classification. `[📦 dataset] [🧪 benchmark]`
 - [Kinetics-700](https://deepmind.google/opensource/kinetics/) (2019) — expanded action taxonomy with broader coverage. `[📦 dataset] [🧪 benchmark]`
-- [Something-Something V2](https://developer.qualcomm.com/software/ai-datasets/something-something) (2017) — motion-heavy temporal action recognition benchmark. `[📦 dataset] [🧪 benchmark]`
+- [Something-Something V2](https://developer.qualcomm.com/software/ai-datasets/something-something) (2017) — motion-heavy temporal action recognition benchmark. `[�� dataset] [🧪 benchmark]`
 - [NTU RGB+D](https://rose1.ntu.edu.sg/dataset/actionRecognition/) (2016) — large skeleton and RGB+D dataset for human activity recognition. `[📦 dataset] [🧪 benchmark]`
 - [PKU-MMD](https://www.icst.pku.edu.cn/struct/Projects/PKUMMD.html) (2017) — large-scale multi-modality human activity dataset. `[📦 dataset]`
 - [Charades](https://prior.allenai.org/projects/charades) (2016) — everyday household activities; long temporal videos. `[📦 dataset]`
@@ -89,7 +86,7 @@ This list brings together papers, code, models, datasets, benchmarks, and deploy
 
 ## Industrial worker activity recognition
 
-This is especially relevant to PDNet-style industrial HAR:
+This is especially relevant to industrial HAR:
 
 - [Assembly101](https://assembly-101.github.io/) (2021) — high-value dataset for procedural assembly activity recognition. `[📦 dataset]`
 - [Toyota Smarthome](https://project.inria.fr/toyotasmarthome/) (2019) — realistic daily activity benchmark with long temporal patterns. `[📦 dataset]`
@@ -113,22 +110,6 @@ For industrial deployment, an efficient pipeline often includes:
 - [Video Understanding: A Survey](https://arxiv.org/) — broader computer vision context for action recognition. `[📄 paper]`
 - [Efficient Vision Transformers for Video Recognition](https://arxiv.org/) — useful background for lightweight transformer design. `[📄 paper]`
 - [TinyML Benchmarking and Deployment Challenges](https://arxiv.org/abs/2003.04821) (2020) — relevant for resource-aware HAR deployment. `[📄 paper] [🧪 benchmark]`
-
-## PDNet thesis direction
-
-This repository is aligned with the following thesis theme:
-
-- PDNet: exploring pruning and distillation for real-time worker activity recognition in industrial assembly
-
-The goal is to investigate how to compress a visual HAR model so it remains accurate while becoming light enough for real-time industrial deployment.
-
-Possible focus directions:
-
-- teacher-student distillation from a strong action-recognition model to a small student
-- structured pruning to reduce computation and parameters
-- real-time windowed inference for assembly activity recognition
-- evaluation on worker activity video data under realistic fabrication constraints
-- reporting latency, FLOPs, memory, and accuracy together
 
 ## Useful tools and recipes
 
@@ -159,5 +140,3 @@ Suggested entry format:
 ## License
 
 This repository is provided for research and educational use. If a specific paper or dataset has its own license, respect that license.
-
-If you want, I can also turn this into a more polished Awesome-style README with badges, a sorted table, and stricter formatting similar to the wearable HAR repo you shared.
