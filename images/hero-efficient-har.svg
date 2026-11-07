@@ -1,0 +1,96 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081A2E"/>
+      <stop offset="0.52" stop-color="#11315A"/>
+      <stop offset="1" stop-color="#0A2C46"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6EE7F9"/>
+      <stop offset="0.45" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F2238" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#102A44" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#040B15" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <circle cx="1090" cy="78" r="88" fill="#6EE7F9" fill-opacity="0.12"/>
+  <circle cx="1006" cy="332" r="118" fill="#7C3AED" fill-opacity="0.12"/>
+  <circle cx="210" cy="344" r="120" fill="#44D3B1" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="62" width="470" height="294" rx="24" fill="url(#panel)" stroke="#9FCBFF" stroke-opacity="0.18"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="102" y="102" width="158" height="102" rx="16" fill="#122B43" stroke="#7AD9FF" stroke-opacity="0.4"/>
+    <rect x="114" y="116" width="128" height="72" rx="12" fill="#163E59"/>
+    <path d="M142 155L170 129L188 148L214 120L230 135V176H142V155Z" fill="#6EE7F9" fill-opacity="0.9"/>
+    <rect x="118" y="197" width="58" height="10" rx="5" fill="#D5E8FF" fill-opacity="0.9"/>
+    <rect x="185" y="197" width="41" height="10" rx="5" fill="#77D9D0" fill-opacity="0.9"/>
+
+    <rect x="291" y="102" width="210" height="102" rx="16" fill="#122B43" stroke="#7AD9FF" stroke-opacity="0.4"/>
+    <g>
+      <circle cx="342" cy="149" r="29" fill="#7C3AED" fill-opacity="0.22"/>
+      <circle cx="342" cy="149" r="16" fill="#7C3AED"/>
+      <path d="M342 117V129M342 171V183M310 149H322M362 149H374" stroke="#E6E9FF" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <path d="M392 118V180" stroke="#B7C8FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M392 136H470" stroke="#B7C8FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M392 157H446" stroke="#B7C8FF" stroke-width="4" stroke-linecap="round"/>
+    <rect x="324" y="190" width="130" height="8" rx="4" fill="#69D8FF" fill-opacity="0.8"/>
+
+    <rect x="102" y="232" width="399" height="84" rx="16" fill="#122B43" stroke="#7AD9FF" stroke-opacity="0.4"/>
+    <g>
+      <rect x="130" y="254" width="64" height="38" rx="12" fill="#1D4066"/>
+      <rect x="140" y="263" width="18" height="18" rx="6" fill="#58E5C5"/>
+      <rect x="168" y="263" width="12" height="18" rx="4" fill="#7FD8FF"/>
+      <text x="126" y="248" fill="#C9E5FF" font-size="12" font-family="Arial, Helvetica, sans-serif">frame</text>
+    </g>
+    <g>
+      <rect x="220" y="254" width="64" height="38" rx="12" fill="#1D4066"/>
+      <rect x="231" y="264" width="16" height="18" rx="5" fill="#6EE7F9"/>
+      <rect x="253" y="264" width="16" height="18" rx="5" fill="#5B8CFF"/>
+      <text x="216" y="248" fill="#C9E5FF" font-size="12" font-family="Arial, Helvetica, sans-serif">stack</text>
+    </g>
+    <g>
+      <rect x="310" y="254" width="64" height="38" rx="12" fill="#1D4066"/>
+      <rect x="320" y="263" width="42" height="20" rx="10" fill="#7C3AED" fill-opacity="0.9"/>
+      <text x="302" y="248" fill="#C9E5FF" font-size="12" font-family="Arial, Helvetica, sans-serif">edge</text>
+    </g>
+    <g>
+      <rect x="400" y="254" width="64" height="38" rx="12" fill="#1D4066"/>
+      <path d="M418 279H450" stroke="#79F0D2" stroke-width="6" stroke-linecap="round"/>
+      <path d="M435 269V286" stroke="#79F0D2" stroke-width="6" stroke-linecap="round"/>
+      <text x="396" y="248" fill="#C9E5FF" font-size="12" font-family="Arial, Helvetica, sans-serif">latency</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="622" y="72" width="500" height="266" rx="28" fill="#0E1E30" fill-opacity="0.34" stroke="#C7E4FF" stroke-opacity="0.14"/>
+    <circle cx="764" cy="206" r="112" fill="#152D47"/>
+    <circle cx="764" cy="206" r="92" fill="url(#accent)" opacity="0.12"/>
+    <path d="M723 206C723 174.52 748.52 149 780 149H780C811.48 149 837 174.52 837 206V206C837 237.48 811.48 263 780 263H780C748.52 263 723 237.48 723 206V206Z" fill="#DDEAFF" fill-opacity="0.08"/>
+    <path d="M759 162C759 156.477 763.477 152 769 152H789C794.523 152 799 156.477 799 162V175H759V162Z" fill="#E7F1FF"/>
+    <path d="M734 216C734 176.235 766.235 144 806 144H810C849.765 144 882 176.235 882 216V228H734V216Z" fill="#4BC0C8" fill-opacity="0.26"/>
+    <path d="M748 221C748 185.863 776.863 157 812 157H822C857.137 157 886 185.863 886 221V231H748V221Z" fill="#77D9D0" fill-opacity="0.25"/>
+    <path d="M734 228H892" stroke="#D7EAFF" stroke-opacity="0.28" stroke-width="4" stroke-linecap="round"/>
+    <path d="M775 145L811 185L855 129" stroke="#7C3AED" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M845 166L876 136" stroke="#6EE7F9" stroke-width="10" stroke-linecap="round"/>
+    <path d="M698 228L665 252" stroke="#7CD6FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M617 198H649" stroke="#7CD6FF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M665 146L640 116" stroke="#7CD6FF" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="640" cy="114" r="10" fill="#6EE7F9"/>
+    <circle cx="665" cy="252" r="10" fill="#5B8CFF"/>
+    <circle cx="617" cy="198" r="10" fill="#79F0D2"/>
+
+    <text x="640" y="318" fill="#E9F6FF" font-size="36" font-weight="700" font-family="Arial, Helvetica, sans-serif">Efficient Vision HAR</text>
+    <text x="640" y="350" fill="#AEE0FF" font-size="20" font-family="Arial, Helvetica, sans-serif">video analytics • compression • real-time deployment</text>
+  </g>
+</svg>
